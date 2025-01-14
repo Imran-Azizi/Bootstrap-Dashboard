@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="{{asset('bootstrapFile/bootstrap.min.css')}}">
 </head>
 <body>
-    <button class="btn btn-success">Click</button>
+    @include('components.sideBar')
+
+    <script src="{{asset('bootstrapFile/bootstrap.bundle.min.js')}}"></script>
+
+    @livewireScripts()
 </body>
 </html>
